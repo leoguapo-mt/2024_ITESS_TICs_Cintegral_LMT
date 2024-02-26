@@ -20,13 +20,13 @@ public class sumasRiemannTest {
         se1.calcular();
         se1.imprimir();
     }
-    /*
+    
     public static void sumasTP03Ejercicio6Test() {
         double x[] = {    -Math.PI, 
                       -0.5*Math.PI, 
                    -0.3333*Math.PI,
                     0.3333*Math.PI,
-                  7.0/12 * Math.PI, 
+                    7.0/12*Math.PI, 
                            Math.PI};
         double w[] = {-2.0/3*Math.PI, 
                       -1.0/3*Math.PI,
@@ -34,10 +34,10 @@ public class sumasRiemannTest {
                        1.0/2*Math.PI,
                        2.0/3*Math.PI};
         
-        SumasTP03Ejercicio6 stp = new SumasTP03Ejercicio6(x,w);
+        sumasTP03Ejercicio6 stp = new sumasTP03Ejercicio6(x,w);
         
         stp.calcular();
         stp.imprimir();
     }
-    */
+    
 }

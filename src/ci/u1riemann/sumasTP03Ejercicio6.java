@@ -5,9 +5,9 @@ package ci.u1riemann;
  *
  * @author leoguapo-mt
  */
-public class sumasTP03Eercicio6 extends sumasRiemann {
+public class sumasTP03Ejercicio6 extends sumasRiemann {
 
-    public sumasTP03Eercicio6(double[] x, double[] w) {
+    public sumasTP03Ejercicio6(double[] x, double[] w) {
         super(x, w);
     }
     
