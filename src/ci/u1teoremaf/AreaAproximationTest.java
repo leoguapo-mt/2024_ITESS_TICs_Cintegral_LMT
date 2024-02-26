@@ -10,6 +10,7 @@ public class AreaAproximationTest {
         AreaAproximation ap = new AreaAproximation(1, 3, 10);
         
         ap.computeArea();
+        ap.print();
         System.out.println(ap.getArea());
          
     }
