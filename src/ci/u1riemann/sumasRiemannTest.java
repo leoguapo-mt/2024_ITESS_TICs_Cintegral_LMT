@@ -8,7 +8,7 @@ package ci.u1riemann;
 public class sumasRiemannTest {
     public static void main(String ...args) {
         sumasEjemplo1Test();
-        //sumasTP03Ejercicio6Test();
+//        sumasTP03Ejercicio6Test();
     }
     
     public static void  sumasEjemplo1Test() {
@@ -38,6 +38,26 @@ public class sumasRiemannTest {
         
         stp.calcular();
         stp.imprimir();
+    }
+    
+    public static void sumasTP03parte4(){
+        double a = 1.0;
+        double b = 2;
+        int n = 1_000_000;
+        double dx = (b-a)/n;
+        double x[] = new double[n+1];
+        double w[] = new double[n];
+        
+        
+//        si se ejecuta con un for, en este ejercicio se evaluaria 1millon de 
+//        veces en ejecutarlo, por lo cual es mejor 
+//        for(int i=0; i < x.length; i++){
+//            x[i] = a+i*dx;
+//        }
+//        for (int i=0; i<x.length; i++){
+//            w[i] = x[i];   
+//        }
+        
     }
     
 }
